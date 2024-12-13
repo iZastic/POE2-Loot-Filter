@@ -2,7 +2,7 @@
 
 `USE AT YOUR OWN RISK`
 
-This is an expirimental loot filter for Path of Exile 2 focused on highlighting items.
+This is an experimental loot filter for Path of Exile 2 focused on highlighting items.
 
 Nothing is hidden!
 
