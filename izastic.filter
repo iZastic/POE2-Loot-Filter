@@ -316,11 +316,7 @@ Show # Item Level 82+
 	Corrupted False
 	ItemLevel >= 82
 	SetFontSize 40
-	SetTextColor 233 206 75
-	SetBorderColor 233 206 75
-	PlayAlertSound 12 200
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Diamond
+	SetBorderColor 0 240 190
 	Continue
 
 Show # Corrupted
