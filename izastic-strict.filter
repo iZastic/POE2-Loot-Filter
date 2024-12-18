@@ -109,7 +109,7 @@ Show
 
 Hide
 	Class "Currency"
-	BaseType "Regal Shard" "Transmutation Shard" "Artificer's Shard"
+	BaseType "Regal Shard" "Transmutation Shard" "Artificer's Shard" "Scroll of Wisdom"
 	DisableDropSound True
 
 Show # Tier 1
@@ -165,12 +165,6 @@ Show # Tier 5
 	SetBackgroundColor 210 178 135 255
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
-
-Show # Wisdom
-	Class "Currency"
-	BaseType "Scroll of Wisdom"
-	SetFontSize 30
-	SetBackgroundColor 20 20 0 255
 
 Show # Unknown
 	Class "Currency"
@@ -271,11 +265,13 @@ Show
 #===============================================================================================================
 
 Hide
+	Class "Flasks" "Life Flasks" "Mana Flasks"
+	DisableDropSound True
+
+Hide
 	ItemLevel <= 82
-	Quality < 5
-	Sockets ! S
-	Rarity Normal
-	Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Gloves" "Boots" "Body Armours" "Helmets" "Amulets" "Rings" "Belts" "Flasks" "Life Flasks" "Mana Flasks" "Charms" "Jewels"
+	Rarity Normal Magic
+	Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Gloves" "Boots" "Body Armours" "Helmets" "Amulets" "Rings" "Belts" "Charms" "Jewels"
 	DisableDropSound True
 
 Show

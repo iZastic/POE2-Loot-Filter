@@ -6,13 +6,15 @@ This is an experimental loot filter for Path of Exile 2
 - Nothing is hidden!
 
 #### izastic-strict
-- `HIDES` normal items below item level 82 with no quality or sockets
-- `HIDES` currency shards (artificer, transmutation, regal)
+- `HIDES` normal and magic items below item level 82
+- `HIDES` currency shards (artificer, transmutation, regal) and wisdom scrolls
+- `HIDES` all flasks
 
 #### izastic-very-strict
-- `HIDES` all normal items below item level 82
+- `HIDES` all normal and magic items below item level 82
+- `HIDES` currency shards (artificer, transmutation, regal, chance) and wisdom scrolls
+- `HIDES` all flasks
 - `HIDES` waystones below tier 11
-- `HIDES` currency shards (artificer, transmutation, regal, chance)
 
 #### Example
 ![screenshot](screenshot.png "Title")
