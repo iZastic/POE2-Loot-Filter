@@ -8,12 +8,12 @@ This is an experimental loot filter for Path of Exile 2
 #### izastic-strict
 - `HIDES` normal and magic items below item level 82
 - `HIDES` currency shards (artificer, transmutation, regal) and wisdom scrolls
-- `HIDES` all flasks
+- `HIDES` normal and magic flasks
 
 #### izastic-very-strict
 - `HIDES` all normal and magic items below item level 82
 - `HIDES` currency shards (artificer, transmutation, regal, chance) and wisdom scrolls
-- `HIDES` all flasks
+- `HIDES` normal and magic flasks
 - `HIDES` waystones below tier 11
 
 #### Example
